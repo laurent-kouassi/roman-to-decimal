@@ -10,7 +10,7 @@ function romanToNum(roman) {
   return 0;
 }
 
-sortRomanName() {
+function sortRomanName() {
   console.log(
       ["King III", "King II", "Queen IX"]
         .map((n) => ({name: n, num: romanToNum(n.split(" ").pop())}))
